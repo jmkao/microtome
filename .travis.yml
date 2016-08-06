@@ -8,11 +8,9 @@ os:
 - linux
 before_cache:
 #  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-#  - rm -rf $HOME/.gradle/caches/2.*
 cache:
   directories:
 #    - $HOME/.gradle/caches/
-#    - $HOME/.gradle/wrapper/
 install:
   - nvm install stable
   - nvm alias default stable
