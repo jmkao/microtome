@@ -14,7 +14,7 @@ cache:
 install:
   - nvm install stable
   - nvm alias default stable
-  - source setup_env.sh
+  - export PATH=`npm bin`:$PATH
   - npm install
   - typings install
   - bower install
