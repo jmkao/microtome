@@ -16,6 +16,7 @@ install:
   - nvm alias default stable
   - export PATH=`npm bin`:$PATH
   - npm install
+  - npm install typings
   - typings install
   - bower install
 script:
